@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-htmlacademy",
+  "rules": {
+    "max-nesting-depth": 10,
+    "selector-max-compound-selectors": 10,
+    "at-rule-no-unknown": null,
+    "at-rule-no-vendor-prefix": null
+  }
+}

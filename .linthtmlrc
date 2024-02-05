@@ -1,0 +1,12 @@
+{
+  "extends": "linthtml-config-htmlacademy",
+  "rules": {
+    "htmlacademy/img-svg-req-dimensions": false,
+    "htmlacademy/input-req-label": false,
+    "htmlacademy/req-single-styles": false,
+    "htmlacademy/form-action-attribute": false,
+    "htmlacademy/attr-req-value": false,
+    "htmlacademy/no-blocking-script": false,
+    "htmlacademy/link-req-content": false
+  }
+}

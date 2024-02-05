@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Coffee House</title>
+</head>
+<body>
+  <div class="body-wrapper">
+    <header>
+      <div class="nav-container">
+        <a class="logo active" href="#">
+          <img src="images/logo.png" alt="logo">
+        </a>
+
+        <nav class="nav">
+          <div class="burger">
+            <span></span>
+          </div>
+
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a class="nav-menu-link" href="#favourite-coffee">Favorite coffee</a>
+            </li>
+
+            <li class="nav-menu-item">
+              <a class="nav-menu-link" href="#about">About</a>
+            </li>
+
+            <li class="nav-menu-item">
+              <a class="nav-menu-link" href="#mobile-app">Mobile app</a>
+            </li>
+
+            <li class="nav-menu-item">
+              <a class="nav-menu-link" href="#contact-us">Contact us</a>
+            </li>
+
+            <li class="nav-menu-item">
+              <a class="nav-menu-link menu-in-nav" href="menu.html"><span>Menu</span>&nbsp;<img src="images/svg/coffee-cup.svg" alt="coffee cup"></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="menu">
+          <a href="menu.html"><span>Menu</span>&nbsp;<img src="images/svg/coffee-cup.svg" alt="coffee cup"></a>
+        </div>
+      </div>
+
+      <div class="hero">
+        <div class="container">
+          <div class="offer">
+            <h1><span>Enjoy</span> premium coffee at our charming cafe</h1>
+
+            <p>
+              With its inviting atmosphere and delicious coffee options, the Coffee
+              House Resource is a popular destination for coffee lovers and those
+              seeking a warm and inviting space to enjoy their favorite beverage.
+            </p>
+
+            <a href="menu.html"><span>Menu</span></a>
+          </div>
+
+          <video class="enjoy-video" src="images/making-coffee.mp4" poster="images/img-hero.jpg" muted="" autoplay="" loop=""></video>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="locked" id="locked"></div>
+
+      <section class="favourite-coffee" id="favourite-coffee">
+        <h2>Choose your <span>favorite</span> coffee</h2>
+
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="arrow left"></div>
+
+            <div class="slides-holder">
+              <div class="slide">
+                <div class="slide-image">
+                  <img src="images/slides/coffee-slider-1.png" alt="coffee-image">
+                </div>
+
+                <div class="description">
+                  <h3 class="description-header">S’mores Frappuccino</h3>
+
+                  <p class="description-text">
+                    This new drink takes an espresso and mixes it with brown
+                    sugar and cinnamon before being topped with oat milk.
+                  </p>
+
+                  <p class="price">$5.50</p>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="slide-image">
+                  <img src="images/slides/coffee-slider-2.png" alt="coffee-image">
+                </div>
+
+                <div class="description">
+                  <h3 class="description-header">Caramel Macchiato</h3>
+
+                  <p class="description-text">
+                    Fragrant and unique classic espresso with rich caramel-peanut syrup, with cream under whipped thick foam.
+                  </p>
+
+                  <p class="price">$5.00</p>
+                </div>
+              </div>
+
+              <div class="slide">
+                <div class="slide-image">
+                  <img src="images/slides/coffee-slider-3.png" alt="coffee-image">
+                </div>
+
+                <div class="description">
+                  <h3 class="description-header">Ice coffee</h3>
+
+                  <p class="description-text">
+                    A popular summer drink that tones and invigorates. Prepared from coffee, milk and ice.
+                  </p>
+
+                  <p class="price">$4.50</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="arrow right"></div>
+          </div>
+
+          <div class="controls">
+            <div class="control active">
+              <div class="control-progress"></div>
+            </div>
+
+            <div class="control">
+              <div class="control-progress"></div>
+            </div>
+
+            <div class="control">
+              <div class="control-progress"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <h2>
+          Resource is&nbsp;<span>the perfect and cozy place</span>&nbsp;where
+          you can enjoy a variety of hot beverages, relax,
+          catch up with friends, or get some work done.
+        </h2>
+
+        <div class="images">
+          <div class="images-item"></div>
+
+          <div class="images-item"></div>
+
+          <div class="images-item"></div>
+
+          <div class="images-item"></div>
+        </div>
+      </section>
+
+      <section class="mobile-app" id="mobile-app">
+        <div class="offer">
+          <h2><span>Download</span> our apps to start ordering</h2>
+
+          <p>Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
+
+          <div class="buttons">
+            <div class="button">
+              <div class="text">
+                <h6>Available on the</h6>
+
+                <h5>App Store</h5>
+              </div>
+            </div>
+
+            <div class="button">
+              <div class="text">
+                <h6>Available on</h6>
+
+                <h5>Google Play</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="smartphone-image">
+          <img src="images/mobile-screens.png" alt="2 smartphones">
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact-us">
+      <div class="offer">
+        <h2>Sip, Savor, Smile. <span>It’s coffee time!</span></h2>
+
+        <div class="social-networks">
+          <a class="social-network twitter" href="https://twitter.com/" target="_blank" rel="noreferrer noopener"></a>
+
+          <a class="social-network instagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"></a>
+
+          <a class="social-network facebook" href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener"></a>
+        </div>
+      </div>
+
+      <div class="contacts">
+        <h3>Contact us</h3>
+
+        <h4 class="address">
+          <a class="google-pin" href="https://maps.app.goo.gl/cirmCBdVWJFfsZtf7" target="_blank" rel="noreferrer noopener">
+            <img src="images/svg/pin-alt.svg" alt="pin icon"><span>8558 Green Rd.,  LA</span>
+          </a>
+        </h4>
+
+        <h4 class="phone">
+          <a class="tel" href="tel:+16035550123" target="_blank" rel="noreferrer noopener">
+            <img src="images/svg/phone.svg" alt="phone icon"><span>+1 (603) 555-0123</span>
+          </a>
+        </h4>
+
+        <h4>
+          <img src="images/svg/clock.svg" alt="clock icon"><span>Mon-Sat: 9:00 AM – 23:00 PM</span>
+        </h4>
+      </div>
+    </footer>
+  </div>
+
+  <script src="scripts/burger_menu.js"></script>
+  <script src="scripts/slider.js"></script>
+</body>
+</html>

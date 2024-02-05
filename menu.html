@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Coffee House</title>
+</head>
+<body>
+  <div class="body-wrapper">
+    <header>
+      <div class="nav-container">
+        <a class="logo" href="index.html">
+          <img src="images/logo.png" alt="logo">
+        </a>
+
+        <nav class="nav">
+          <div class="burger">
+            <span></span>
+          </div>
+
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a class="nav-menu-link" href="index.html#favourite-coffee">Favorite coffee</a>
+            </li>
+
+            <li class="nav-menu-item">
+              <a class="nav-menu-link" href="index.html#about">About</a>
+            </li>
+
+            <li class="nav-menu-item">
+              <a class="nav-menu-link" href="index.html#mobile-app">Mobile app</a>
+            </li>
+
+            <li class="nav-menu-item">
+              <a class="nav-menu-link" href="#contact-us">Contact us</a>
+            </li>
+
+            <li class="nav-menu-item">
+              <a class="nav-menu-link menu-in-nav active" href="#"><span>Menu</span>&nbsp;<img src="images/svg/coffee-cup.svg" alt="coffee cup"></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="menu active">
+          <a href="#"><span>Menu</span>&nbsp;<img src="images/svg/coffee-cup.svg" alt="coffee cup"></a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="menu-wrapper">
+        <div class="offer">
+          <h1>Behind each of our cups hides an <span>amazing surprise</span></h1>
+
+          <div class="tabs">
+            <label class="tabs-item" data-tab="coffee" for="coffee">
+              <input class="tabs-input" id="coffee" type="radio" name="menu" checked>
+
+              <span class="icon"><img src="images/tab-icons/coffee-icon.png" alt="coffee-cup"></span><span class="item-name">Coffee</span>
+            </label>
+
+            <label class="tabs-item" data-tab="tea" for="tea">
+              <input class="tabs-input" id="tea" type="radio" name="menu">
+
+              <span class="icon"><img src="images/tab-icons/tea-icon.png" alt="teapot"></span><span class="item-name">Tea</span>
+            </label>
+
+            <label class="tabs-item" data-tab="desserts" for="dessert">
+              <input class="tabs-input" id="dessert" type="radio" name="menu">
+
+              <span class="icon"><img src="images/tab-icons/dessert-icon.png" alt="dessert"></span><span class="item-name">Dessert</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="menu">
+          <div class="menu-category coffee-menu active">
+          </div>
+
+          <div class="menu-category tea-menu">
+          </div>
+
+          <div class="menu-category desserts-menu">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact-us">
+      <div class="offer">
+        <h2>Sip, Savor, Smile. <span>It’s coffee time!</span></h2>
+
+        <div class="social-networks">
+          <a class="social-network twitter" href="https://twitter.com/" target="_blank" rel="noreferrer noopener"></a>
+
+          <a class="social-network instagram" href="https://www.instagram.com/" target="_blank" rel="noreferrer noopener"></a>
+
+          <a class="social-network facebook" href="https://www.facebook.com/" target="_blank" rel="noreferrer noopener"></a>
+        </div>
+      </div>
+
+      <div class="contacts">
+        <h3>Contact us</h3>
+
+        <h4 class="address">
+          <a class="google-pin" href="https://maps.app.goo.gl/cirmCBdVWJFfsZtf7" target="_blank" rel="noreferrer noopener">
+            <img src="images/svg/pin-alt.svg" alt="pin icon"><span>8558 Green Rd.,  LA</span>
+          </a>
+        </h4>
+
+        <h4 class="phone">
+          <a class="tel" href="tel:+16035550123" target="_blank" rel="noreferrer noopener">
+            <img src="images/svg/phone.svg" alt="phone icon"><span>+1 (603) 555-0123</span>
+          </a>
+        </h4>
+
+        <h4>
+          <img src="images/svg/clock.svg" alt="clock icon"><span>Mon-Sat: 9:00 AM – 23:00 PM</span>
+        </h4>
+      </div>
+    </footer>
+
+    <div class="pop-up">
+      <div class="pop-up-body">
+        <div class="pop-up-content">
+          <img class="product-image" src="images/menu/coffee/coffee-1.png" title="Irish coffee" alt="Irish coffee">
+
+          <div class="pop-up-text">
+            <h3 class="product-name">Irish coffee</h3>
+
+            <p class="product-description">Fragrant black coffee with Jameson Irish whiskey and whipped milk</p>
+
+            <div class="size-select">
+              <p class="product-size">Size</p>
+
+              <div class="size-items">
+                <label class="size-item" for="s">
+                  <input class="size-input" data-price="0" id="s" type="radio" name="cup-size" checked>
+
+                  <span class="icon">S</span><span class="measure-s">200ml</span>
+                </label>
+
+                <label class="size-item" for="m">
+                  <input class="size-input" data-price="0.5" id="m" type="radio" name="cup-size">
+
+                  <span class="icon">M</span><span class="measure-m">300ml</span>
+                </label>
+
+                <label class="size-item" for="l">
+                  <input class="size-input" data-price="1" id="l" type="radio" name="cup-size">
+
+                  <span class="icon">L</span><span class="measure-l">400ml</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="additives-select">
+              <p class="additives">Additives</p>
+
+              <div class="additives-items">
+                <label class="additives-item" for="sugar">
+                  <input class="additives-input" data-price="0.5" id="sugar" type="checkbox" name="additive">
+
+                  <span class="icon">1</span><span class="add-name-one">Sugar</span>
+                </label>
+
+                <label class="additives-item" for="cinnamon">
+                  <input class="additives-input" data-price="0.5" id="cinnamon" type="checkbox" name="additive">
+
+                  <span class="icon">2</span><span class="add-name-two">Cinnamon</span>
+                </label>
+
+                <label class="additives-item" for="syrup">
+                  <input class="additives-input" data-price="0.5" id="syrup" type="checkbox" name="additive">
+
+                  <span class="icon">3</span><span class="add-name-three">Syrup</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="total-price">
+              <div class="total">Total:</div>
+
+              <div class="price" id="total-price">$7.00</div>
+            </div>
+
+            <div class="alert">
+              <img class="info" src="images/svg/info-empty.svg" alt="copyright">
+
+              <span class="alert-text">The cost is not final. Download our mobile app to see the final price and place your order. Earn loyalty points and enjoy your favorite coffee with up to 20% discount.</span>
+            </div>
+
+            <div class="close-button">Close</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="scripts/burger_menu.js"></script>
+  <script src="scripts/card_create.js" type="module"></script>
+  <script src="scripts/pop-up.js" type="module"></script>
+</body>
+</html>
