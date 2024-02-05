@@ -912,7 +912,7 @@ main .menu-wrapper .menu .menu-category .menu-item .photo {
   height: 310px;
   border-radius: 40px;
   background-position: center;
-  background-size: 100%;
+  background-size: 110%;
   transition: all 1s ease-in-out;
 }
 main .menu-wrapper .menu .menu-category .menu-item .product-name,
@@ -935,11 +935,11 @@ main .menu-wrapper .menu .menu-category .menu-item .price {
 }
 @media (min-width: 769px) {
   main .menu-wrapper .menu .menu-category .menu-item:hover {
-    border-width: 2px;
+    border-width: 1.5px;
     margin-bottom: -1px;
   }
   main .menu-wrapper .menu .menu-category .menu-item:hover .photo {
-    background-size: 90%;
+    background-size: 100%;
   }
 }
 @media (max-width: 1439px) {

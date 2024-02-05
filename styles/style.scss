@@ -1037,37 +1037,6 @@ main {
               background-color: $font-color-light;
             }
           }
-
-          // @media (min-width: 769px) {
-          //   &:hover {
-          //     color: $font-color-light;
-          //     background-color: $container-background-color;
-          //     cursor: pointer;
-
-          //     .icon {
-          //       color: $font-color-dark;
-          //       background-color: $font-color-light;
-          //     }
-          //   }
-
-          //   &.active {
-          //     &:hover {
-          //       cursor: default;
-          //     }
-          //   }
-          // }
-
-          // @media (max-width: 380px) {
-          //   margin-right: 3px;
-
-          //   &:first-of-type {
-          //     margin-right: 0;
-          //   }
-
-          //   &:last-of-type {
-          //     margin-right: 2px;
-          //   }
-          // }
         }
       }
     }
@@ -1159,7 +1128,7 @@ main {
             height: 310px;
             border-radius: 40px;
             background-position: center;
-            background-size: 100%;
+            background-size: 110%;
             transition: all 1s ease-in-out;
           }
 
@@ -1189,11 +1158,11 @@ main {
 
           @media (min-width: 769px) {
             &:hover {
-              border-width: 2px;
+              border-width: 1.5px;
               margin-bottom: -1px;
 
               .photo {
-                background-size: 90%;
+                background-size: 100%;
               }
             }
           }
