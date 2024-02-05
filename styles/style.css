@@ -937,6 +937,7 @@ main .menu-wrapper .menu .menu-category .menu-item .price {
   main .menu-wrapper .menu .menu-category .menu-item:hover {
     border-width: 1.5px;
     margin-bottom: -1px;
+    cursor: pointer;
   }
   main .menu-wrapper .menu .menu-category .menu-item:hover .photo {
     background-size: 100%;
