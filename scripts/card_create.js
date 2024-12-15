@@ -76,7 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
       load_button.addEventListener("click", function() {
         const menu_category = this.closest(".menu-category");
         menu_category.classList.add("loaded");
-        console.log('Menu category loaded:', menu_category);
       });
 
       return load_button;
