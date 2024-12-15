@@ -581,7 +581,7 @@ main {
           border-radius: 100px;
           border: 1px solid $border-color-dark;
           background: 50% 50% no-repeat;
-          transition: all 0.5s ease-in-out;
+          transition: all 0.3s ease-in-out;
 
           @media (min-width: 769px) {
             &:hover {

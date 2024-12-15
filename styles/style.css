@@ -478,7 +478,7 @@ main .favourite-coffee .slider-wrapper .slider .arrow {
   border-radius: 100px;
   border: 1px solid #665f55;
   background: 50% 50% no-repeat;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 @media (min-width: 769px) {
   main .favourite-coffee .slider-wrapper .slider .arrow:hover {
