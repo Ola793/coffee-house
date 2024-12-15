@@ -1,15 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
   let products = [];
 
-  fetch('../scripts/products.json')
+  const basePath = window.location.hostname === "localhost"
+    ? "../scripts/products.json"
+    : "./scripts/products.json";
+
+  fetch(basePath)
     .then(response => response.json())
     .then(data => {
       products = data;
       createCard();
     })
-    .catch(error => {
-      console.error('Error fetching JSON:', error);
-    });
+    .catch(error => console.error("Error fetching JSON:", error));
 
   const tabs = document.querySelectorAll(".tabs-item");
   const menu_categories = document.querySelectorAll(".menu-category");
