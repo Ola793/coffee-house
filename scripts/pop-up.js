@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   let products = [];
 
-  fetch('../scripts/products.json')
+  fetch("../coffee-house/scripts/products.json")
     .then(response => response.json())
     .then(data => {
       products = data;
       initializeCardClickListeners(products);
     })
     .catch(error => {
-      console.error('Error fetching JSON:', error);
+      console.error("Error fetching JSON:", error);
     });
 
   function initializeCardClickListeners(products) {
