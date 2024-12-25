@@ -30,19 +30,19 @@ document.addEventListener("DOMContentLoaded", () => {
       body.classList.toggle("lock");
     }
 
-    pop_up.addEventListener("click", function(event) {
+    pop_up.addEventListener("click", event => {
       if (!event.target.closest(".pop-up-content") || event.target === close_button) {
         generalToggle();
       }
     });
 
-    cards.forEach((card) => {
+    cards.forEach(card => {
       const product_name = card.querySelector(".product-name").innerText;
 
       card.addEventListener("click", function() {
         generalToggle();
 
-        products.forEach((product) => {
+        products.forEach(product => {
           if (product.name === product_name) {
             const card_number = this.dataset.cardNumber;
             const product_category = product.category;
